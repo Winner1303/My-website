@@ -1,0 +1,225 @@
+:root {
+  --primary-color: rgb(0, 0, 26);
+}
+.dark-theme {
+  --primary-color: black;
+}
+
+header {
+  background-color: var(--primary-color);
+
+  background-size: contain;
+}
+
+footer {
+  background: radial-gradient(ellipse, rgb(0, 0, 143), rgb(0, 0, 42));
+  background-size: contain;
+}
+
+button {
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: rgb(0, 0, 255);
+}
+
+.boardfooter {
+  color: white;
+  padding-left: 300px;
+  padding-top: 100px;
+}
+
+.socialmedialinks {
+  padding-top: 30px;
+  
+  text-align: center;
+  margin-top: 80px;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+}
+
+.linkstopagesfooter {
+  display: flex;
+  font-size: 20px;
+  gap: 10px;
+  padding-right: 80px;
+  padding-left: 30px;
+  /* padding-left: 600px; */
+}
+
+.writenlinksfooter {
+  background-color: black;
+  border: 2px outset rgb(0, 0, 94);
+  padding: 3px;
+  border-radius: 50px;
+  color: yellow;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.writenlinksfooter:hover {
+  background-color: darkblue;
+}
+
+.linkstopages {
+  display: flex;
+  gap: 30px;
+  padding-left: 80px;
+}
+
+.homepage,
+.aboutpage,
+.servicespage,
+.portfoliopage,
+.skillspage,
+.projectspage,
+.resumepage,
+.contactpage {
+  text-decoration-line: none;
+
+  padding-right: 20px;
+}
+
+.writenlinks {
+  /* color: white; */
+  color: rgb(0, 255, 115);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.writenlinks:hover {
+  color: yellow;
+}
+
+#cwk {
+  color: yellow;
+  /* padding-right: 220px; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 3px outset white;
+  border-radius: 30px 65px;
+  margin-right: 500px;
+  padding-right: 10px;
+  padding-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+#icon {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+
+  margin-left: 60px;
+}
+
+.presentation {
+  padding-left: 90px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: url(Nouvel\ Image/tech.jpeg);
+  background-size: contain;
+}
+
+.cv {
+  text-decoration-line: none;
+  color: rgb(255, 255, 255);
+  border: 3px outset white;
+  font-family: sans-serif;
+  border-radius: 25px;
+  margin-left: 250px;
+  padding: 7px;
+  transition: background-color 0.3s ease;
+}
+
+.cv:hover {
+  background-color: darkblue;
+}
+
+.twitter {
+  padding-left: 1200px;
+}
+
+.introduction {
+  text-decoration-line: none;
+  color: rgb(56, 250, 143);
+  font-family: sans-serif;
+  /*  border-radius: 25px;
+  border: 2px solid white; */
+  margin-left: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.intorductionaboutme {
+  /* background: radial-gradient(ellipse,rgb(78, 173, 0),rgb(73, 73, 73)); */
+  /*  background: radial-gradient(ellipse, rgb(0, 0, 61),rgb(20, 0, 22)); */
+  background-color: var(--primary-color);
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
+
+.aboutme {
+  color: rgb(0, 255, 115);
+  text-decoration-line: none;
+  transition: background-color 0.3s ease;
+}
+
+.aboutme:hover {
+  color: yellow;
+}
+
+#MySkills {
+  gap: 10px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 200px;
+  display: flex;
+}
+
+.listedeveloper {
+  padding-right: 40px;
+  padding-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 4px outset rgb(56, 250, 143);
+  background: url(Nouvel\ Image/tech9.jpeg);
+  background-size: contain;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.listeentrepreneur {
+  padding-right: 40px;
+  padding-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 4px outset rgb(56, 250, 143);
+  background: url(Nouvel\ Image/tech9.jpeg);
+  background-size: contain;
+  border-radius: 50px;
+  text-align: center;
+  gap: 80px;
+}
+
+table,
+tr,
+th,
+td,
+caption {
+  border: 3px outset #eee;
+  font-family: "Courier New", Courier, monospace;
+  border-collapse: collapse;
+  padding: 0.5rem;
+  height: 40px;
+  width: 600px;
+}
+
+.boards {
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+  text-align: center;
+  padding-right: 15px;
+  padding-bottom: 20px;
+}
